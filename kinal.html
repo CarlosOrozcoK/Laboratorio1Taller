@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encabezado y Sección</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        border-bottom: 2px solid #e0e0e0;
+      }
+      .logo img {
+        height: 50px;
+      }
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #007bff;
+      }
+      .donation {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .donation img {
+        height: 40px;
+      }
+      .donation a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .donation a:hover {
+        text-decoration: underline;
+      }
+      .banner {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+      }
+      .banner img {
+        width: 100%;
+        display: block;
+      }
+      .banner .text-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .banner .text-overlay img {
+        width: 60%;
+        max-width: 600px;
+      }
+      .centered-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+      }
+      .centered-image img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      h1{
+        text-align: center;
+        font-size: 35px;
+      }
+
+      h2{
+        text-align: center;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://static.wixstatic.com/media/128120_cfcd43999075474d8400eb39987892ca~mv2.png/v1/fill/w_171,h_62,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FUNDACI%C3%83%C2%93N_KINAL_VECTOR--0101.png"
+          alt="Fundación Kinal"
+        />
+      </div>
+      <nav>
+        <a href="#quienes-somos">QUIÉNES SOMOS</a>
+        <a href="#educacion">EDUCACIÓN</a>
+        <a href="#antiguos-alumnos">ANTIGUOS ALUMNOS</a>
+        <a href="#blog">BLOG</a>
+      </nav>
+      <div class="donation">
+        <img
+          src="https://static.wixstatic.com/media/128120_222c6afe0771472e85c1ad44674c3a70~mv2.png/v1/fill/w_123,h_62,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Recurso%203-8.png"
+          alt="Banco Industrial"
+        />
+      </div>
+    </header>
+
+    <section class="banner">
+      <img
+        src="https://static.wixstatic.com/media/128120_d716ee8e434e439c820e824c2e46c7db~mv2.jpg/v1/fill/w_952,h_417,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_d716ee8e434e439c820e824c2e46c7db~mv2.jpg"
+        alt="Imagen de fondo"
+      />
+      <div class="text-overlay">
+        <img
+          src="https://static.wixstatic.com/media/128120_3303d1bc33c24649b04d828915eaf89d~mv2.png/v1/fill/w_600,h_232,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/JOVENES-8.png"
+          alt="Texto superior"
+        />
+      </div>
+    </section>
+
+    <!-- Imagen centrada -->
+    <div class="centered-image">
+      <img
+        src="https://static.wixstatic.com/media/128120_ee5ccdee60e04a118d1e3759431825ed~mv2.png/v1/fill/w_234,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/128120_ee5ccdee60e04a118d1e3759431825ed~mv2.png"
+        alt="Imagen centrada"
+      />
+    </div>
+    <div>
+      <h1>TU CAMINO AL ÉXITO ESTÁ EN KINAL</h1>
+      <br>
+      <h2>Kinal es un Centro Educativo privado, no lucrativo, dirigido a la formación técnica profesional de jóvenes y adultos, de beneficio colectivo y asistencia social en favor de los sectores más necesitados de la comunidad.
+
+        Nuestro valor fundamental es enseñar a realizar el trabajo bien hecho, que sea la base de la superación de alumnos y el medio para servir a los demás.</h2>
+    </div>
+  </body>
+</html>
