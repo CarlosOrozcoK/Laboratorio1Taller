@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  .logo img {
+    height: 50px;
+  }
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color: #007bff;
+  }
+  .donation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .donation img {
+    height: 40px;
+  }
+  .donation a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .donation a:hover {
+    text-decoration: underline;
+  }
+  .banner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .banner img {
+    width: 100%;
+    display: block;
+  }
+  .banner .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner .text-overlay img {
+    width: 60%;
+    max-width: 600px;
+  }
+  .centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .centered-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .education-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 40px 20px;
+    flex-wrap: wrap;
+  }
+  .education-box {
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+  }
+  .education-box img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .education-box h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .education-box h3.ciclo-basico {
+    background-color: #a22b56;
+  }
+  .education-box h3.diversificado {
+    background-color: #002f6c;
+  }
+  .education-box h3.tecnica {
+    background-color: #ffaf21;
+  }
+  .education-box p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .education-box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  .education-box a:hover {
+    text-decoration: underline;
+  }
